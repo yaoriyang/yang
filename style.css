@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: skyblue;
+    cursor: default;
+}
+
+.logo span {
+    color: pink;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: rgb(59, 59, 59) ;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: wheat;
+}
+
+.btn-talk {
+    color: black;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: rgb(255, 255, 192);
+    border-radius: 10%;
+    border: 2px solid rgb(248, 208, 106);
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-talk:hover {
+    color: black;
+    background: transparent;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.content {
+    max-width: 500px;
+    color: rgb(97, 97, 97);
+}
+
+.content h2{
+    font-size: 3em;
+}
+
+.content h2 span {
+color: pink;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: skyblue;
+    border-radius: 10px;
+    border: 2px solid skyblue;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-group a:nth-child(1) {
+    color: skyblue;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 24px;
+}
+
+.btn-group a:hover:nth-child(1){
+    color: white;
+    background: skyblue;
+}
+
+.btn-group a:nth-child(2) {
+    color: skyblue;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 24px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: white;
+    background: skyblue;
+}
+
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: red;
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text{
+    width: 550px;
+}
